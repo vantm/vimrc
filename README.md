@@ -6,10 +6,18 @@
    ```
 1. Install vim-plug
 1. Backup old `.vimrc`
-    ```bash
-    sudo mv ~/.vimrc ~/.vimrc.old
-    ```
+   ```bash
+   sudo mv ~/.vimrc ~/.vimrc.old
+   ```
 1. Add new `.vimrc`
-    ```bash
-    echo "source ~/vim/main.vim" > ~/.vimrc
-    ```
+   ```bash
+   echo "source ~/vim/main.vim" > ~/.vimrc
+   ```
+1. Install plugins
+   ```bash
+   vi +PlugInstall
+   ```
+2. Reload and enjoy
+   ```bash
+   :source $MYVIMRC
+   ```
