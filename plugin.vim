@@ -13,7 +13,6 @@ call plug#end()
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|DS_Store|git|bin|obj|dist|build)|(\.(swp|ico|git|svn|dll|exe))$'
 let g:NERDTreeIgnore = ['node_modules', '\.git']
 let g:NERDTreeShowLineNumbers = 1
-let g:airline_theme = 'onedark'
 let g:airline#extensions#tabline#enabled = 1
 
 """ AUTOCMD
