@@ -7,5 +7,5 @@
         mv ~/.vimrc ~/.vimrc.old
     fi
 
-    echo "source ~/vim/main.vim" > ~/.vimrc"
+    echo "source ~/vim/main.vim" > ~/.vimrc
     ```
