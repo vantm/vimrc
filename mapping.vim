@@ -9,6 +9,11 @@ nnoremap <S-h> :bp!<CR>
 nnoremap <S-l> :bn!<CR>
 nnoremap <leader>c :call CloseBuf()<CR>
 
+nnoremap <leader>p "*p
+nnoremap <leader>P "*P
+nnoremap <leader>y "*y
+nnoremap <leader>Y "*yy
+
 nnoremap <M-j> :m+1<CR>
 nnoremap <M-k> :m-2<CR>
 

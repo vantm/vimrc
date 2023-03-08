@@ -31,6 +31,7 @@ let &t_EI.="\e[1 q"
 
 hi CursorLine cterm=none ctermbg=0d0d0d
 hi CursorColumn cterm=none ctermbg=0d0d0d
-hi Visual cterm=none ctermbg=darkgrey
-hi Search ctermbg=darkgrey
+hi Visual cterm=none ctermbg=0d0d0d
+hi Search ctermbg=3d3d3d
+
 

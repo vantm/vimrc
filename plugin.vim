@@ -9,19 +9,23 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
-Plug 'tomasiser/vim-code-dark'
+Plug 'gruvbox-community/gruvbox'
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'dense-analysis/ale'
 
 call plug#end()
 
 set t_Co=256
 set t_ut=
-colorscheme codedark
+set background=dark
+colorscheme gruvbox
 
 source ~/vim/plugin.airline.vim
 source ~/vim/plugin.coc.vim
 source ~/vim/plugin.ctrlp.vim
 source ~/vim/plugin.easymotion.vim
 source ~/vim/plugin.nerdtree.vim
+source ~/vim/plugin.omnisharp.vim
 
 " automatical strip trailing spaces
 autocmd BufWritePre * :%s/\s\+$//e
