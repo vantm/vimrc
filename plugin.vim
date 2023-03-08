@@ -6,14 +6,22 @@ Plug 'mattn/emmet-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
 """ PLUGIN CONFIG
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|DS_Store|git|bin|obj|dist|build)|(\.(swp|ico|git|svn|dll|exe))$'
+
 let g:NERDTreeIgnore = ['node_modules', '\.git']
 let g:NERDTreeShowLineNumbers = 1
+
 let g:airline#extensions#tabline#enabled = 1
+
+let g:coc_disable_startup_warning = 1
+
+let g:EasyMotion_smartcase = 1
 
 """ AUTOCMD
 
