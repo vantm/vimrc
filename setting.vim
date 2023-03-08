@@ -13,8 +13,13 @@ set hlsearch
 
 set ignorecase
 set smartcase
-
 set showmatch
+set incsearch
+
+set title
+
+nmap ; :
+vmap ; :
 
 let mapleader=','
 
@@ -24,12 +29,8 @@ let &t_SI.="\e[5 q"
 let &t_SR.="\e[4 q"
 let &t_EI.="\e[1 q"
 
-hi CursorLine cterm=none ctermbg=black
-hi CursorColumn cterm=none ctermbg=black
+hi CursorLine cterm=none ctermbg=0d0d0d
+hi CursorColumn cterm=none ctermbg=0d0d0d
 hi Visual cterm=none ctermbg=darkgrey
-hi CocMenuSel ctermbg=darkgrey guibg=darkgrey
 hi Search ctermbg=darkgrey
-hi Cursor ctermbg=grey
-hi Pmenu ctermbg=darkgrey
-hi PmenuSel ctermbg=darkblue
 
