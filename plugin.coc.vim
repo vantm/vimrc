@@ -1,4 +1,4 @@
-let g:coc_disable_startup_warning = 1
+ let g:coc_disable_startup_warning = 1
 
 " Some servers have issues with backup files, see #649
 set nobackup
