@@ -17,7 +17,3 @@
    ```bash
    vi +PlugInstall
    ```
-2. Reload and enjoy
-   ```bash
-   :source $MYVIMRC
-   ```
