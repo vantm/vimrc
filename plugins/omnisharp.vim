@@ -1,5 +1,12 @@
 let g:OmniSharp_selector_ui = 'ctrlp'
 
+let g:OmniSharp_server_use_mono = 0
+let g:OmniSharp_server_use_net6 = 1
+
+let g:ale_linters = {
+\ 'cs': ['OmniSharp']
+\}
+
 augroup omnisharp_commands
   autocmd!
 
