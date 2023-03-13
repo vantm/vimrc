@@ -12,6 +12,8 @@ Plug 'easymotion/vim-easymotion'
 Plug 'gruvbox-community/gruvbox'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'dense-analysis/ale'
+Plug 'mfussenegger/nvim-dap'
+Plug 'puremourning/vimspector'
 
 call plug#end()
 
@@ -21,6 +23,7 @@ source ~/vim/plugins/ctrlp.vim
 source ~/vim/plugins/easymotion.vim
 source ~/vim/plugins/nerdtree.vim
 source ~/vim/plugins/omnisharp.vim
+source ~/vim/plugins/vimspector.vim
 
 " automatical strip trailing spaces
 autocmd BufWritePre * :%s/\s\+$//e

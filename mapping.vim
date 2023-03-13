@@ -22,6 +22,10 @@ nnoremap <M-k> :m-2<CR>
 
 nnoremap <silent> // :noh<CR>
 
+inoremap jj <esc>lj
+inoremap kk <esc>lk
+inoremap jk <esc>l
+
 function! CloseBuf()
     let numbuf = len(getbufinfo({'buflisted':1}))
     if numbuf > 1
