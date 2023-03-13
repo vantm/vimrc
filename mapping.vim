@@ -14,7 +14,10 @@ nnoremap <leader>P "*P
 nnoremap <leader>y "*y
 nnoremap <leader>Y "*yy
 
+execute "set <M-j>=\ej"
 nnoremap <M-j> :m+1<CR>
+
+execute "set <M-k>=\ek"
 nnoremap <M-k> :m-2<CR>
 
 nnoremap <silent> // :noh<CR>

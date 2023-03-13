@@ -15,17 +15,12 @@ Plug 'dense-analysis/ale'
 
 call plug#end()
 
-set t_Co=256
-set t_ut=
-set background=dark
-colorscheme gruvbox
-
-source ~/vim/plugin.airline.vim
-source ~/vim/plugin.coc.vim
-source ~/vim/plugin.ctrlp.vim
-source ~/vim/plugin.easymotion.vim
-source ~/vim/plugin.nerdtree.vim
-source ~/vim/plugin.omnisharp.vim
+source ~/vim/plugins/airline.vim
+source ~/vim/plugins/coc.vim
+source ~/vim/plugins/ctrlp.vim
+source ~/vim/plugins/easymotion.vim
+source ~/vim/plugins/nerdtree.vim
+source ~/vim/plugins/omnisharp.vim
 
 " automatical strip trailing spaces
 autocmd BufWritePre * :%s/\s\+$//e

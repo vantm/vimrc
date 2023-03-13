@@ -18,10 +18,7 @@ set incsearch
 
 set title
 
-nmap ; :
-vmap ; :
-
-let mapleader=','
+let mapleader=' '
 
 syntax on
 
