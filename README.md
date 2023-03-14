@@ -17,3 +17,9 @@
    ```bash
    vi +PlugInstall
    ```
+   > Some errors should be shown, skip them by pressing `ENTER`
+1. Reload vim by `source $MYVIMRC`
+1. Install plugin dependencies:
+   - `:CocInstall`
+   - `:OmniSharpInstall`
+   - `:VimspectorInstall`
