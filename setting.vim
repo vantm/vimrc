@@ -37,3 +37,6 @@ hi CursorColumn cterm=none ctermbg=0d0d0d
 hi Visual cterm=none ctermbg=0d0d0d
 hi Search ctermbg=3d3d3d
 
+" automatical strip trailing spaces
+autocmd BufWritePre * :%s/\s\+$//e
+

@@ -9,7 +9,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
-Plug 'gruvbox-community/gruvbox'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'dense-analysis/ale'
 Plug 'mfussenegger/nvim-dap'
@@ -17,6 +16,8 @@ Plug 'puremourning/vimspector'
 Plug 'liuchengxu/vim-which-key'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/tagbar'
+Plug 'airblade/vim-gitgutter'
+Plug 'tomasiser/vim-code-dark'
 
 call plug#end()
 
@@ -29,6 +30,3 @@ source ~/vim/plugins/omnisharp.vim
 source ~/vim/plugins/vimspector.vim
 source ~/vim/plugins/which-key.vim
 source ~/vim/plugins/tagbar.vim
-
-" automatical strip trailing spaces
-autocmd BufWritePre * :%s/\s\+$//e

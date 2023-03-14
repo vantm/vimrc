@@ -1,6 +1,6 @@
 inoremap <C-BS> <C-W>
 
-nnoremap <silent> S :call ReplaceWordUnderCursor()<CR>
+nnoremap <S-s> "_diwP
 
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
@@ -24,10 +24,14 @@ nnoremap <silent> <M-k> :m-2<CR>
 nnoremap <silent> <silent> // :noh<CR>
 
 nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
 
 inoremap jj <esc>lj
 inoremap kk <esc>lk
 inoremap jk <esc>l
+
+nnoremap <silent> <leader>, 5<C-w><
+nnoremap <silent> <leader>. 5<C-w>>
 
 function! CloseBuf()
     let numbuf = len(getbufinfo({'buflisted':1}))
@@ -36,13 +40,5 @@ function! CloseBuf()
         execute ':bd #'
     elseif numbuf > 0
         execute ':bd'
-    endif
-endfunction
-
-function! ReplaceWordUnderCursor()
-    if col(".") == col("$") - 1
-        execute '"_diwp'
-    else
-        execute '"_diwP'
     endif
 endfunction
