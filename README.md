@@ -19,7 +19,13 @@
    ```
    > Some errors should be shown, skip them by pressing `ENTER`
 1. Reload vim by `source $MYVIMRC`
-1. Install plugin dependencies:
-   - `:CocInstall`
-   - `:OmniSharpInstall`
-   - `:VimspectorInstall`
+1. Install plugin dependencies by executing those Vim commands:
+   ```bash
+   CocInstall
+   ```
+   ```bash
+   OmniSharpInstall
+   ```
+   ```bash
+   VimspectorInstall
+   ```
