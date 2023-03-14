@@ -1,5 +1,7 @@
 set autoindent expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
+set list listchars=tab:>-,space:·
+
 set number relativenumber
 
 set nowrap
@@ -18,6 +20,10 @@ set incsearch
 
 set title
 
+set nocompatible
+
+set showcmd
+
 let mapleader=' '
 
 syntax on
@@ -30,5 +36,4 @@ hi CursorLine cterm=none ctermbg=0d0d0d
 hi CursorColumn cterm=none ctermbg=0d0d0d
 hi Visual cterm=none ctermbg=0d0d0d
 hi Search ctermbg=3d3d3d
-
 
